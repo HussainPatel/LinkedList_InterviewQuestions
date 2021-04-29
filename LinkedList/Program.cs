@@ -13,10 +13,14 @@ namespace LinkedList
             list.AddLast(10);
             list.AddLast(15);
             list.AddLast(20);
-
-            Console.WriteLine(list.Head.Value);
-            Console.WriteLine(list.Tail.Value);
-
+            list.AddFirst(5);
+            list.AddFirst(0);
+            list.AddLast(25);
+            list.AddLast(30);
+            list.AddLast(35);
+            list.AddLast(40);
+            Console.WriteLine(list.Length());
+            list.Display();
 
             Console.Read();
         }
